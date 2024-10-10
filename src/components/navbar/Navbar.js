@@ -44,14 +44,14 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        {/* <Navbar.Brand href="/" className="d-flex">
           <img
             src={themename === "light" ? logoDark : logoLight}
             className="img-fluid logo"
             alt="brand"
             style={{width: "48", height: "40"}}
           />
-        </Navbar.Brand>
+        </Navbar.Brand> */}
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
